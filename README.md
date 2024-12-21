@@ -49,4 +49,4 @@ python predict.py
 
 #### After preparing all the features required for training, use the `featmakepkl.py` script to serialize them into a single `.pkl` file. This `.pkl` file will be used for training.
 
-#### The script used to train Se-Inter is [train.py](https://github.com/ChengfeiYan/DRN-1D2D_Inter/blob/main/train.py), which contains all the details of training Se-Inter, including how to choose the best model, how to calculate the loss, etc.
+#### The script used to train Se-Inter is `train.py`, which contains all the details of training Se-Inter, including how to choose the best model, how to calculate the loss, etc.
