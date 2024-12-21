@@ -19,11 +19,8 @@
 #### 1.Install DRN-1D2D_Inter
 
 ```
-git clone https://github.com/ISYSLAB-HUST/se-inter.git
+git clone https://github.com/HQY6324/se-inter.git
 ```
-
-#### 2.The SaProt-650M model weights  have been prepared in the 'software' folder. The Linux version compressed packages of Foldseek and HHsuite tools are also ready, and users can download different versions based on their needs.
-
 ## Data Preparation
 
 #### 1.Create the FASTA files for PPI and the corresponding paired FASTA files separately.The corresponding scripts `makesinglefastas.py` and `makepairfastas.py` for generating FASTA files are provided in the `bin` directory.
@@ -41,3 +38,15 @@ git clone https://github.com/ISYSLAB-HUST/se-inter.git
 ## Usage
 
 #### After preparing all the feature and label files, modify the corresponding feature paths and output file save paths in the `predict.py` file, then execute the script. An example is provided in the `example` folder, and you can use the features in this folder for prediction.
+
+### Example
+
+```
+python predict.py 
+```
+
+### Train
+
+#### After preparing all the features required for training, use the `featmakepkl.py` script to serialize them into a single `.pkl` file. This `.pkl` file will be used for training.
+
+#### The script used to train Se-Inter is [train.py](https://github.com/ChengfeiYan/DRN-1D2D_Inter/blob/main/train.py), which contains all the details of training Se-Inter, including how to choose the best model, how to calculate the loss, etc.

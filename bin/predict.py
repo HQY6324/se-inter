@@ -72,11 +72,11 @@ if __name__ == '__main__':
 
 
     # 准备测试数据集
-    esm_msa_dir = '../example/pairesm/4yxf1_paired_esm_msa.pkl'
-    esm2_dir = '../example/sasingle'
-    monomer_esm_dir='/home/huangqiyuan/datav2/datav2_bighemotest/home/huangqiyuan/datav2/bighemotest/singleesm'
-    esm2pair_dir = '/home/huangqiyuan/datav2/datav2_bighemotest/home/huangqiyuan/datav2/bighemotest/esm2650pair'
-    label_dir = '/home/huangqiyuan/datav2/datav2_bighemotest/home/huangqiyuan/datav2/bighemotest/contactmap'
+    esm_msa_dir = '../example/pairesm'
+    esm2_dir = '../example/saesm2single'
+    monomer_esm_dir='../example/singleesm'
+    esm2pair_dir = '../example/saesm2pair'
+    label_dir = '../example/contactmap'
 
 
 
