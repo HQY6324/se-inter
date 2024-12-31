@@ -89,3 +89,5 @@ if __name__ == '__main__':
     test_loader = DataLoader(test_set, batch_size=None, shuffle=False)
     # 运行测试
     test_model(model, criterion_ppi, test_loader, device,predictions_folder)
+
+
